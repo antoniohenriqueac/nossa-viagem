@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-01T12:51:16.070Z",
+  "lastUpdated": "2026-11-02T14:57:36.930Z",
   "source": "stonegy-extract",
   "counts": {
-    "items": 1806,
+    "items": 1815,
     "monsters": 441,
     "hunts": 133,
     "quests": 13
   },
   "hashes": {
-    "wiki_data": "fb5c13daf01c47806877e0235d190cdfc9f6731b3d18f5eb0cb36d73155e2583"
+    "wiki_data": "d35d414e72cb7df12457a9940db1725a641e4a799d298255438a2c0bad4fb226"
   }
 }
