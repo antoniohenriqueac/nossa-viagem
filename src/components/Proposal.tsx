@@ -125,7 +125,7 @@ export function Proposal() {
       <div class="proposal__photo">
         <img
           src={withBase('photos/nos.jpg')}
-          alt="Espaço reservado para a foto de Tay e Antonio"
+          alt="Espaço reservado para a foto de Tay e Antoniô"
           width={1200}
           height={1500}
           loading="lazy"

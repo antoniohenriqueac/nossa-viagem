@@ -21,7 +21,7 @@ export function Hero() {
         <div class="boarding" role="group" aria-label="Cartão de embarque">
           <div class="boarding__top">
             <span class="boarding__label">Passageiros</span>
-            <strong class="boarding__names">Antoniô</strong>
+            <strong class="boarding__names">Tay &amp; Antoniô</strong>
           </div>
 
           <div class="boarding__row">
