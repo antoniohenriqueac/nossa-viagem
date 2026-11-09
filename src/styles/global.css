@@ -445,11 +445,6 @@ button {
   line-height: 1.2;
 }
 
-.proposal__sign {
-  color: var(--ink);
-  font-style: italic;
-}
-
 .proposal__actions {
   width: min(100%, 34rem);
   margin: 0 auto;

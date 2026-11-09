@@ -142,11 +142,6 @@ export function Proposal() {
         </p>
         <p>Não é cidade. Não é ilha. É a gente.</p>
         <p class="proposal__question">Tay, quer namorar comigo?</p>
-        <p class="proposal__sign">
-          Com carinho,
-          <br />
-          Antonio
-        </p>
       </Reveal>
 
       {!answeredYes ? (
