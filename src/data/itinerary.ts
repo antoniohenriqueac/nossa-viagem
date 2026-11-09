@@ -49,7 +49,7 @@ export const chapters: Chapter[] = [
     place: 'Koh Samui',
     dates: '6 a 10 de fevereiro',
     image: 'destinations/koh-samui.jpg',
-    imageAlt: 'Praia tropical em Koh Samui',
+    imageAlt: 'Big Buddha (Wat Phra Yai) em Koh Samui',
     line:
       'Do lado leste, Koh Samui. Dias de praia… e ainda vamos encontrar o Dicção por lá. Vai ficar ainda mais especial.',
   },
@@ -91,9 +91,9 @@ export const credits = [
     href: 'https://unsplash.com/photos/1589394815804-964ed0be2eb5',
   },
   {
-    place: 'Koh Samui',
+    place: 'Koh Samui · Big Buddha',
     credit: 'Argenberg · Wikimedia Commons',
-    href: 'https://commons.wikimedia.org/wiki/File:Koh_Samui,_Beach,_Thailand.jpg',
+    href: 'https://commons.wikimedia.org/wiki/File:Koh_Samui,_Big_Buddha_01.jpg',
   },
   {
     place: 'Bali',

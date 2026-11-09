@@ -9,7 +9,7 @@ Imagens salvas localmente em `public/destinations/` (sem hotlink).
 | Chiang Mai · Doi Suthep | Wikimedia Commons | PhilipNalangan — [Doi Suthep Temple Chiang Mai Thailand.jpg](https://commons.wikimedia.org/wiki/File:Doi_Suthep_Temple_Chiang_Mai_Thailand.jpg) |
 | Chiang Rai · Wat Rong Khun | Wikimedia Commons | Ddalbiez — [Wat Rong Khun-001.jpg](https://commons.wikimedia.org/wiki/File:Wat_Rong_Khun-001.jpg) |
 | Ilhas do oeste | Unsplash | [photo-1589394815804-964ed0be2eb5](https://unsplash.com/photos/1589394815804-964ed0be2eb5) |
-| Koh Samui | Wikimedia Commons | Argenberg — [Koh Samui, Beach, Thailand.jpg](https://commons.wikimedia.org/wiki/File:Koh_Samui,_Beach,_Thailand.jpg) |
+| Koh Samui · Big Buddha | Wikimedia Commons | Argenberg — [Koh Samui, Big Buddha 01.jpg](https://commons.wikimedia.org/wiki/File:Koh_Samui,_Big_Buddha_01.jpg) |
 | Bali | Unsplash | [photo-1537996194471-e657df975ab4](https://unsplash.com/photos/1537996194471-e657df975ab4) |
 
 `public/photos/nos.jpg` é um placeholder tipográfico — substitua pela foto do casal com o mesmo nome.
