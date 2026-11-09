@@ -20,7 +20,7 @@ npm run preview
 
 ## Foto do casal
 
-Substitua o placeholder em **`public/photos/nos.jpg`** pela foto real, mantendo o mesmo nome de arquivo. Não é necessário alterar código.
+A foto do casal fica em **`public/photos/nos.jpg`**. Para trocar depois, substitua o arquivo mantendo o mesmo nome.
 
 ## Fotos dos destinos
 
