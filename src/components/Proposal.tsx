@@ -166,6 +166,7 @@ export function Proposal() {
             Agora a viagem tem um nome a mais: o nosso. Mal posso esperar por Tailândia, Bali —
             e por tudo que vem depois, com você.
           </p>
+          <p class="proposal__love">Te amo demais da conta, bemzinnnn!!!! ♥</p>
         </Reveal>
       )}
     </section>
