@@ -1,83 +1,27 @@
-# Stonegy Wiki Local
+# Nossa viagem
 
-Wiki estática fan do Stonegy — Hunt Finder, bestiário, itens, drops e missões. UI inspirada no client in-game (Stonegypedia + Modos de Jogo).
+Site estático (Vite + Preact) com o roteiro de Tailândia e Bali — 25 de janeiro a 17 de fevereiro.
 
-**Não afiliado a [stonegy-online.com](https://stonegy-online.com).**
+Publicado em GitHub Pages: https://antoniohenriqueac.github.io/opala-wiki/
 
-## Setup
+## Desenvolvimento
 
 ```bash
-# Requer Node.js 20+
 npm install
-npm run seed      # extrai dados do Stonegy Online (CDN + client bundle)
-npm run dev       # http://localhost:5173
-```
-
-## Scripts
-
-| Comando | Descrição |
-|---------|-----------|
-| `npm run seed` | Alias de `extract` — fonte Stonegy por padrão |
-| `npm run seed:codexloot` | Fallback bootstrap via Codex Loot |
-| `npm run extract` | Pipeline Stonegy → `wiki_data.js` + sprites |
-| `npm run extract -- --source=codexloot` | Extract usando Codex Loot |
-| `npm run discover` | Mapeia endpoints Stonegy → `docs/stonegy-endpoints.md` |
-| `npm run dev` | Servidor de desenvolvimento |
-| `npm run build` | Build estático |
-| `npm run preview` | Preview local da build (:4173) |
-
-## Fonte de dados
-
-1. **CDN** `assets.stonegy-online.com` — datasets `.stonegy` (items, monsters, mapItems)
-2. **Client bundle** — hunts e quests embutidos no `_app-*.js`
-3. **Sprites** — `stonegy-online.com/assets/inventory/` e `/assets/monsters/`
-4. **Fallback** — Codex Loot se Stonegy estiver indisponível
-
-Ver [docs/stonegy-endpoints.md](docs/stonegy-endpoints.md).
-
-## UI
-
-- **Stonegypedia** (`/items`, `/bestiary`) — sidebar de categorias, lista, paginação
-- **Modos de Jogo** (`/hunts`, `/quests`) — grid de cards estilo client
-- Detalhe (drawer) mantém calculadora XP/h e loot tables
-
-## Estrutura
-
-- `src/` — frontend Vite + Preact
-- `src/components/game/` — shell UI in-game
-- `public/data/` — `wiki_data.js` + `manifest.json`
-- `public/assets/` — sprite atlases webp
-- `tools/extract/` — pipeline automatizado
-
-## Loja de Coins
-
-Marketplace intermediador (compra/venda de coins com PIX). Requer API separada:
-
-```bash
-cd server && cp .env.example .env && npm install && npm run dev
-# Em outro terminal, com .env.local (VITE_COINS_API_URL=/coins-api):
 npm run dev
 ```
 
-Ver [server/README.md](server/README.md) para Mercado Pago, deploy e painel admin.
-
-## Deploy (GitHub Pages)
-
-Site publicado em **[https://antoniohenriqueac.github.io/opala-wiki/](https://antoniohenriqueac.github.io/opala-wiki/)** via GitHub Actions (`.github/workflows/deploy-pages.yml`).
-
-Push na branch `main` dispara build + deploy automaticamente.
-
-Configure o secret `VITE_COINS_API_URL` no repositório para apontar à API de coins em produção.
-
-## CI
-
-- **Deploy:** `.github/workflows/deploy-pages.yml` — build Vite + GitHub Pages
-- **Dados:** `.github/workflows/sync-stonegy-data.yml` — roda `npm run extract` diariamente e commita se `manifest.json` mudar
-
-## WSL / Playwright
-
-`npm run discover` funciona via HTTP probe sem Playwright. Para captura de rede completa no WSL:
+Build (mesmo `BASE_PATH` do Pages):
 
 ```bash
-npx playwright install-deps chromium  # requer sudo
+BASE_PATH=/opala-wiki/ npm run build
+npm run preview
 ```
+
+## Foto do casal
+
+Substitua o placeholder em **`public/photos/nos.jpg`** pela foto real, mantendo o mesmo nome de arquivo. Não é necessário alterar código.
+
+## Fotos dos destinos
+
+Imagens locais em `public/destinations/`. Créditos em `ATTRIBUTION.md` e no rodapé do site.

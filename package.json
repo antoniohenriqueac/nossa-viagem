@@ -1,33 +1,19 @@
 {
-  "name": "stonegy-wiki",
+  "name": "opala-wiki",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
-    "test": "tsx --test src/lib/xp-calculator.test.ts src/lib/rmt-kk-calculator.test.ts src/lib/exp-share.test.ts src/lib/hunt-elements.test.ts",
-    "seed": "tsx tools/extract/index.ts",
-    "seed:codexloot": "tsx scripts/seed-from-codexloot.ts",
-    "extract": "tsx tools/extract/index.ts",
-    "discover": "tsx tools/extract/discover.ts",
-    "capture:lure-pace": "tsx tools/extract/capture-lure-pace.ts",
-    "scan-codexloot": "tsx scripts/scan-codexloot.ts",
-    "dev:api": "npm run dev --prefix server",
-    "dev:all": "npm run dev:api & npm run dev"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "playwright": "^1.61.1",
-    "preact": "^10.29.3",
-    "preact-router": "^4.1.2",
-    "qrcode": "^1.5.4",
-    "sharp": "^0.35.3",
-    "tsx": "^4.23.0"
+    "preact": "^10.29.3"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.5",
     "@types/node": "^24.13.2",
-    "@types/qrcode": "^1.5.6",
     "typescript": "~6.0.2",
     "vite": "^8.1.1"
   }
