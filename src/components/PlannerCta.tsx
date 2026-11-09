@@ -13,7 +13,7 @@ export function PlannerCta() {
         </p>
         <a
           class="planner__button"
-          href="https://ludotrip.app/"
+          href="https://ludotrip.app/convite/qI0ltnrNuY0YcKxufxHkYw"
           target="_blank"
           rel="noopener noreferrer"
         >

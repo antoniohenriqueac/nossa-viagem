@@ -49,7 +49,7 @@ export const chapters: Chapter[] = [
     place: 'Koh Samui',
     dates: '6 a 10 de fevereiro',
     image: 'destinations/koh-samui.jpg',
-    imageAlt: 'Praia tropical em Koh Samui',
+    imageAlt: 'Big Buddha (Wat Phra Yai) em Koh Samui',
     line:
       'Do lado leste, Koh Samui. Dias de praia… e ainda vamos encontrar o Dicção por lá. Vai ficar ainda mais especial.',
   },
@@ -61,43 +61,5 @@ export const chapters: Chapter[] = [
     imageAlt: 'Terraços de arroz e verde de Bali',
     line:
       'Sete dias em Bali, contando o voo de chegada. Ubud no verde, a costa sul no mar — o último capítulo no mapa… ou quase.',
-  },
-];
-
-export const credits = [
-  {
-    place: 'Hero / Phi Phi',
-    credit: 'Foto via Unsplash (photo-1552465011)',
-    href: 'https://unsplash.com/photos/brown-wooden-boat-on-sea-shore-during-daytime-1552465011-b4e21bf6e79a',
-  },
-  {
-    place: 'Bangkok',
-    credit: 'Foto via Unsplash (photo-1563492065599)',
-    href: 'https://unsplash.com/photos/1563492065599-3520f775eeed',
-  },
-  {
-    place: 'Chiang Mai · Doi Suthep',
-    credit: 'PhilipNalangan · Wikimedia Commons',
-    href: 'https://commons.wikimedia.org/wiki/File:Doi_Suthep_Temple_Chiang_Mai_Thailand.jpg',
-  },
-  {
-    place: 'Chiang Rai · Wat Rong Khun',
-    credit: 'Ddalbiez · Wikimedia Commons',
-    href: 'https://commons.wikimedia.org/wiki/File:Wat_Rong_Khun-001.jpg',
-  },
-  {
-    place: 'Ilhas do oeste',
-    credit: 'Foto via Unsplash (photo-1589394815804)',
-    href: 'https://unsplash.com/photos/1589394815804-964ed0be2eb5',
-  },
-  {
-    place: 'Koh Samui',
-    credit: 'Argenberg · Wikimedia Commons',
-    href: 'https://commons.wikimedia.org/wiki/File:Koh_Samui,_Beach,_Thailand.jpg',
-  },
-  {
-    place: 'Bali',
-    credit: 'Foto via Unsplash (photo-1537996194471)',
-    href: 'https://unsplash.com/photos/1537996194471-e657df975ab4',
   },
 ];
