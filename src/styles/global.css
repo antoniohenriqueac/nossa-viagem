@@ -516,6 +516,15 @@ button {
   font-size: 1.05rem;
 }
 
+.proposal__love {
+  margin: 1.35rem 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 4.5vw, 1.65rem);
+  font-weight: 550;
+  line-height: 1.35;
+  color: var(--teal-deep);
+}
+
 .confetti {
   position: fixed;
   inset: 0;

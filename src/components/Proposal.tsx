@@ -125,7 +125,7 @@ export function Proposal() {
       <div class="proposal__photo">
         <img
           src={withBase('photos/nos.jpg')}
-          alt="Espaço reservado para a foto de Tay e Antonio"
+          alt="Tay e Antoniô"
           width={1200}
           height={1500}
           loading="lazy"
@@ -166,6 +166,7 @@ export function Proposal() {
             Agora a viagem tem um nome a mais: o nosso. Mal posso esperar por Tailândia, Bali —
             e por tudo que vem depois, com você.
           </p>
+          <p class="proposal__love">Te amo demais da conta, bemzinnnn!!!! ♥</p>
         </Reveal>
       )}
     </section>
