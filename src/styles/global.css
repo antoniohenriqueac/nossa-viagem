@@ -530,44 +530,6 @@ button {
   z-index: 40;
 }
 
-/* ---------- credits ---------- */
-
-.credits {
-  padding: 2.5rem 1.25rem 3rem;
-  border-top: 1px solid rgba(26, 38, 41, 0.08);
-  background: rgba(255, 255, 255, 0.35);
-}
-
-.credits__title {
-  margin: 0 0 0.75rem;
-  font-family: var(--font-ticket);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-}
-
-.credits__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 0.4rem;
-  font-size: 0.86rem;
-  color: var(--ink-soft);
-  max-width: 40rem;
-}
-
-.credits__list a {
-  color: var(--teal-deep);
-}
-
-.credits__note {
-  margin: 1.25rem 0 0;
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

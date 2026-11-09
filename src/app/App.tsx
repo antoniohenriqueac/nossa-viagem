@@ -1,6 +1,5 @@
 import { chapters } from '../data/itinerary';
 import { Chapter } from '../components/Chapter';
-import { Credits } from '../components/Credits';
 import { Hero } from '../components/Hero';
 import { PlannerCta } from '../components/PlannerCta';
 import { Proposal } from '../components/Proposal';
@@ -26,8 +25,6 @@ export function App() {
 
         <Proposal />
       </main>
-
-      <Credits />
     </div>
   );
 }
